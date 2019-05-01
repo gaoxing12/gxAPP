@@ -51,3 +51,70 @@
 	.caidanImg>p{
 		width: 20%;
 	}
+.caidanLi{
+	width: 10%;
+}
+li{
+	list-style: none;
+}
+ /*头条*/
+ .notice {
+ 	width: 100%;
+ 	margin: 5px 0 0 0;
+ 	height: 44px;
+ 	overflow: hidden;
+ 	/*background:url(../img/eb1d8a588e4faac40da5c8d464cf10bd_bg.gif) no-repeat;
+ 	background-size:100% ;*/
+ 	background: white;
+ }
+ 
+ .noticTipTxt {
+ 	color: #ff7300;
+ 	height: 44px;
+ 	line-height: 22px;
+ 	overflow: hidden;
+ 	margin: 0 0 0 40px;
+ }
+ 
+ .noticTipTxt li {
+ 	height: 22px;
+ 	line-height: 22px;
+ }
+ 
+ .noticTipTxt a {
+ 	color: #0075E8;
+ 	font-size: 12px;
+ 	text-decoration: none;
+ }
+ 
+ .noticTipTxt a:hover {
+ 	color: #ff7300;
+ 	text-decoration: underline;
+ }
+.lunboImg,.text{
+ 	float: left;
+ }
+ .notice{
+	position: relative;
+ }
+#jsfoot01>li{
+ 	/*background: pink;*/
+ }
+
+ .text>p{
+ 	line-height: 15px;
+ }	
+ #jsfoot{
+ 	position: absolute;
+ 	left: 15px;
+ 	top: 2px;
+ }
+ .change{
+ 	 	word-break:break-all;
+word-wrap:break-word;
+ }
+ .change>p{
+ 	width: 20%;
+ 	/*word-break:break-all;
+	word-wrap:break-word;*/
+ }

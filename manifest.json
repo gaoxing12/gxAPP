@@ -125,5 +125,65 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"html/information .html",
+					"html/main.html"
+				],
+				"refer": [
+					"html/my.html",
+					"html/recommend.html",
+					"html/moreNews.html"
+				],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"imgs/main/a (14).png",
+				"fonts/icon/iconfont.woff2",
+				"imgs/main/a (15).png",
+				"imgs/main/a (21).png",
+				"imgs/main/a (11).png",
+				"imgs/main/a (3).png",
+				"imgs/main/a (4).png",
+				"imgs/main/a (5).png",
+				"imgs/main/logo.png",
+				"imgs/main/a (6).png",
+				"fonts/icon/demo.css",
+				"js/mui.min.js",
+				"fonts/icon/iconfont.ttf",
+				"imgs/main/a (10).png",
+				"imgs/main/a (20).png",
+				"js/mui.js",
+				"imgs/main/a (1).png",
+				"imgs/main/a (16).png",
+				"imgs/main/a (2).png",
+				"imgs/main/a (19).png",
+				"README.md",
+				"js/main.js",
+				"imgs/main/a (7).png",
+				"fonts/icon/iconfont.svg",
+				"imgs/main/a (12).png",
+				"css/main.css",
+				"imgs/main/a (8).png",
+				"fonts/mui.ttf",
+				"fonts/icon/iconfont.woff",
+				"fonts/icon/demo_index.html",
+				"css/mui.css",
+				"imgs/main/a (13).png",
+				"imgs/main/a (9).png",
+				"imgs/main/baise_sanjiao.png",
+				"fonts/icon/iconfont.css",
+				"fonts/icon/iconfont.eot",
+				"imgs/main/a (18).png",
+				"fonts/icon/iconfont.js",
+				"css/mui.min.css",
+				"imgs/main/a (17).png"
+			]
+		}
 	}
 }

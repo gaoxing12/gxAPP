@@ -1,0 +1,15 @@
+{
+	"index.html": {
+		"resources": [
+			"html/information .html",
+			"html/main.html"
+		],
+		"refer": [
+			"html/my.html",
+			"html/recommend.html",
+			"html/information .html",
+			"html/moreNews.html",
+			"html/main.html"
+		]
+	}
+}
