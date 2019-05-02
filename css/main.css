@@ -20,15 +20,23 @@
 }
 /* 用一个大的框来装后边绿色的背景 */
 .main_backg{
-	background-color: forestgreen;
+	background-color: #2abb10;
 }
-
+.main_text{
+	background-color:#fff ;
+}
 /* 轮播*/
+.lunBo{
+	/*margin-top: 30px;*/
+}
 .swiper-container {
-      width: 80%;
-      height: 250px;
+      width:100%;
+      /*height: 250px;*/
       margin-left: auto;
-      margin-right: auto;
+      margin-right: 10px;
+      /*padding-left: 10px;*/
+      /*margin-top: 20px;*/
+      
     }
     .swiper-slide {
       text-align: center;
@@ -47,6 +55,11 @@
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+      margin-top: 20px;
+    }
+    
+    .swiper-slide>span{
+    	display: block;
     }
 	.caidanImg>p{
 		width: 20%;
@@ -58,6 +71,9 @@ li{
 	list-style: none;
 }
  /*头条*/
+.header-tiao{
+	margin-top: 20px;
+}
  .notice {
  	width: 100%;
  	margin: 5px 0 0 0;
@@ -98,7 +114,12 @@ li{
 	position: relative;
  }
 #jsfoot01>li{
+	position: relative;
  	/*background: pink;*/
+ }
+ #jsfoot01>li>img{
+	position: absolute;
+	right: 50px;
  }
 
  .text>p{
@@ -109,12 +130,63 @@ li{
  	left: 15px;
  	top: 2px;
  }
- .change{
- 	 	word-break:break-all;
-word-wrap:break-word;
- }
- .change>p{
- 	width: 20%;
- 	/*word-break:break-all;
-	word-wrap:break-word;*/
- }
+/*横滚切换条*/
+.hengGun{
+	/*background-color: red;*/
+	margin-top: 20px;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+    color: #3cb950;
+    border-bottom: 2px solid #3cb950;
+    background: #fff;
+}
+
+/*第二个轮播图*/
+.swiper-container2{
+	/*height: 400px;*/
+}
+
+/*列表成列*/
+.mui-media-body>h4{
+	padding-top: 4px;
+	overflow:hidden; 
+	white-space:nowrap; 
+	text-overflow:ellipsis;
+}
+.mui-media-body{
+	padding-left: 10px;
+}
+.mui-media-body>span{
+	color: #fa4d0a;
+}
+.green{
+	background: #edfbee;
+	color: #6bcd7b;
+	font-size: 12px;
+	padding: 2px 3px;
+	margin-right:5px;
+}
+.blue{
+	background: #f3f8fa;
+	color: #87b4ea;
+	font-size: 12px;
+	padding: 2px 3px;
+	margin-right:5px;
+}
+.swiper-slide>img{
+	padding-left: 10px;
+	width: 100%;
+}
+.mui-table-view{
+	margin-top: 20px;
+}
+/*头部的颜色*/
+.mui-bar-transparent
+{
+    top: 0;
+
+    background-color: rgba(42, 187, 16, 0);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}

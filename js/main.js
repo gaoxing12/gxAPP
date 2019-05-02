@@ -22,14 +22,29 @@ mui.init({
 			}
 			
 //轮播
-var swiper = new Swiper('.swiper-container', {
-//    slidesPerView: 3,
-//    slidesPerColumn: 2,
+var swiper = new Swiper('.swiper-containers', {
+      slidesPerView: 5,
+      slidesPerColumn: 2,
       //slidesPerColumn: 多行布局里面每列的slide数量。
 			//slidesPerColumn目前还不兼容loop模式（loop: true）。
-      spaceBetween: 30,
+      spaceBetween: 5,
       pagination: {
         el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+    
+//第二个轮播
+//轮播
+var swiper = new Swiper('.swiper-container2', {
+      slidesPerView: 3,
+      slidesPerColumn: 1,
+      //slidesPerColumn: 多行布局里面每列的slide数量。
+			//slidesPerColumn目前还不兼容loop模式（loop: true）。
+      spaceBetween: 10,
+//    loop:true,
+      pagination: {
+        el: '.swiper-pagination1',
         clickable: true,
       },
     });

@@ -139,6 +139,15 @@
 					"html/moreNews.html"
 				],
 				"priority": 0
+			},
+			"html/main.html": {
+				"resources": [
+					"html/main_son/tuijian.html"
+				],
+				"refer": [
+					"html/information .html"
+				],
+				"priority": 0
 			}
 		},
 		"idle": {

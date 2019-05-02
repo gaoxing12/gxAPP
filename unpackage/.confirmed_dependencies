@@ -11,5 +11,14 @@
 			"html/moreNews.html",
 			"html/main.html"
 		]
+	},
+	"html/main.html": {
+		"resources": [
+			"html/main_son/tuijian.html"
+		],
+		"refer": [
+			"html/main_son/tuijian.html",
+			"html/information .html"
+		]
 	}
 }
