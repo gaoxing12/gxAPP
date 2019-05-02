@@ -176,6 +176,14 @@
 				],
 				"refer": [],
 				"priority": 0
+			},
+			"html/recommend.html": {
+				"resources": [
+					"html/recom_son/return_house.html",
+					"html/recom_son/two_hands.html"
+				],
+				"refer": [],
+				"priority": 0
 			}
 		},
 		"idle": {

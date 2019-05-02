@@ -1,0 +1,19 @@
+
+.mui-scroll-wrapper>#renm_header{
+	/*background-color: pink;*/
+	width: 100%;
+	margin: 0 auto;
+}
+.mui-control-item>span{	
+	padding: 0 5px;
+	padding-bottom: 5px;
+}
+.mui-bar-nav{
+	height: 55px;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active
+{
+    color: #3db952;
+    /*border-bottom: 2px solid #007aff;*/
+    background: none;
+}

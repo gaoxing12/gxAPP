@@ -1,0 +1,73 @@
+/*更新时间*/
+body{
+	background: #fff;
+}
+.update_time{
+	/*background: pink;*/
+	height: 30px;
+	line-height: 30px;
+}
+.mui-media-object{
+	border-radius: 50%;
+}
+.mui-ellipsis>span:nth-child(1){
+	background-color: #2ec96a;
+	color: #fff;
+	padding: 2px 5px;
+}
+.mui-ellipsis>span:nth-child(2){
+	color: #fa4600;
+	font-size: 17px;
+}
+.two_hands_con{
+	padding: 0 10px;
+	background-color: #fff;
+}
+.dec{
+	color: #53575c;
+	line-height: 25px;
+	margin-top: 20px;
+}
+/*房间展示*/
+.house_show{
+	height: 188px;
+	margin-top: 10px;
+}
+.house_show>img{
+	width: 100%;
+}
+/*房主的信息*/
+.homeowners{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #f8f8f8;
+	height: 40px;
+}
+.homeowners>span:nth-child(1)>span{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	/*background: yellow;*/
+}
+.homeowners>span>img{
+	width: 10%;
+	border-radius: 50%;
+	float: left;
+}
+.homeowners>.mui-icon-chat{
+	padding: 6px;
+	border-radius: 50%;
+	background-color: #eefbee;
+	color: #60c96f;
+	margin-left: 10px;
+}
+.homeowners>.mui-icon-phone{
+	padding: 6px;
+	border-radius: 50%;
+	background-color: #eefbee;
+	color: #60c96f;
+}
+.mui-table-view>.mui-table-view-cell{
+	border-bottom: none;
+}

@@ -51,5 +51,15 @@
 		"refer": [
 			"html/news_son/recom_refresh/recom_refresh.html"
 		]
+	},
+	"html/recommend.html": {
+		"resources": [
+			"html/recom_son/return_house.html",
+			"html/recom_son/two_hands.html"
+		],
+		"refer": [
+			"html/recom_son/return_house.html",
+			"html/recom_son/two_hands.html"
+		]
 	}
 }
