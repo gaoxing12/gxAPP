@@ -3,6 +3,10 @@
 	margin: 0 10px;
 	padding:3px 7px;
 }
+.inform_header{
+	background-color: #fff;
+	box-shadow: none;
+}
 /*头部的微聊和通知活跃的效果*/
 .inform_header>h1>a.informH_active{
 	color: #3EBA51;
@@ -17,3 +21,64 @@
 .headerIcon>span{
 	font-size: 28px;
 }
+.page{
+	margin-top: 45px;
+	background: #fff;
+}
+.mui-content{
+	background-color: #fff;
+}
+/*暂无聊天信息*/
+.no_charst{
+	/*background: yellow;*/
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 15px;
+	color: #b0b5b9;
+}
+/*热门群聊中的头像*/
+.mui-media-object{
+	border-radius: 50%;
+}
+.mui-media-body{
+	/*background: pink;*/
+	position: relative;
+}
+.mui-media-body>.mui-btn{
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+
+/*顾问下的信息*/
+.xinxi_kuang{
+	background-color: #FAFAFA;
+	padding: 10px 10px;
+}
+.xinxi_kuang>p:nth-child(1)>span{
+	margin-right: 5px;
+	
+}
+.xinxi_kuang>p:nth-child(1)>span:nth-child(1){
+	font-size: 18px;
+	color: #4b4f5b;
+}
+.xinxi_kuang>p:nth-child(1)>span:nth-child(2){
+	color: #92bceb;
+}
+
+.xinxi_kuang>p:nth-child(1)>span:nth-child(3){
+	color: #80c98e;
+}
+.xinxi_kuang>p:nth-child(2)>span{
+	margin-right: 10px;
+}
+.xinxi_kuang>p:nth-child(2)>span:nth-child(1){
+	color: #fa723e;
+}
+
+.groupChat{
+	margin-top: 20px;background: #fff;
+}
+

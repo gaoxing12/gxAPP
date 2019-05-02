@@ -136,7 +136,8 @@
 				"refer": [
 					"html/my.html",
 					"html/recommend.html",
-					"html/moreNews.html"
+					"html/moreNews.html",
+					"html/information.html"
 				],
 				"priority": 0
 			},
@@ -147,6 +148,33 @@
 				"refer": [
 					"html/information .html"
 				],
+				"priority": 0
+			},
+			"html/information .html": {
+				"resources": [
+					"html/infor_son/charts.html"
+				],
+				"refer": [
+					"html/infor_son/tongzhi.html"
+				],
+				"priority": 0
+			},
+			"html/moreNews.html": {
+				"resources": [
+					"html/infor_son/charts.html",
+					"html/infor_son/tongzhi.html",
+					"html/news_son/recommended.html"
+				],
+				"refer": [
+					"html/my.html"
+				],
+				"priority": 0
+			},
+			"html/news_son/recommended.html": {
+				"resources": [
+					"html/news_son/recom_refresh/recom_refresh.html"
+				],
+				"refer": [],
 				"priority": 0
 			}
 		},

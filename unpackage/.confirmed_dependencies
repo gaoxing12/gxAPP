@@ -9,7 +9,8 @@
 			"html/recommend.html",
 			"html/information .html",
 			"html/moreNews.html",
-			"html/main.html"
+			"html/main.html",
+			"html/information.html"
 		]
 	},
 	"html/main.html": {
@@ -19,6 +20,36 @@
 		"refer": [
 			"html/main_son/tuijian.html",
 			"html/information .html"
+		]
+	},
+	"html/information .html": {
+		"resources": [
+			"html/infor_son/charts.html"
+		],
+		"refer": [
+			"html/infor_son/tongzhi.html",
+			"html/infor_son/charts.html"
+		]
+	},
+	"html/moreNews.html": {
+		"resources": [
+			"html/infor_son/charts.html",
+			"html/infor_son/tongzhi.html",
+			"html/news_son/recommended.html"
+		],
+		"refer": [
+			"html/infor_son/tongzhi.html",
+			"html/infor_son/charts.html",
+			"html/my.html",
+			"html/news_son/recommended.html"
+		]
+	},
+	"html/news_son/recommended.html": {
+		"resources": [
+			"html/news_son/recom_refresh/recom_refresh.html"
+		],
+		"refer": [
+			"html/news_son/recom_refresh/recom_refresh.html"
 		]
 	}
 }
