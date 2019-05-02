@@ -1,4 +1,80 @@
+/*让刷新的盒子左右两边空出一定的距离*/
 #refreshContainer{
-	height: 1000px;
-	background: red;
+	padding: 0 10px;
+}
+/*今日必看开始*/
+.must_look{
+	height: 145px;
+	/*background-color: red;*/
+	background-image: url('../imgs/refresh/timg (4).jpg');
+	background-size: 100%;
+}
+/*背景图上面有一个蒙版*/
+.mengBan{
+	height: 145px;
+	background-color:rgba(0,0,0,0.6) ;
+	position: relative;
+}
+.hot_title{
+	color: #fff;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.hot_title>img{
+	width: 7%;
+}
+/*楼市迈过四月，信号已经很微妙了！*/
+.four_mouth{
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	/*padding-top: 10px;*/
+}
+.four_mouth>p,.four_mouth>span{
+	color: #fff;
+}
+.four_mouth>p{
+	font-size: 18px;
+}
+.four_mouth>span{
+	font-size: 12px;
+}
+/*今日必看结束*/
+/*消息发布开始*/
+.haiding{
+	/*background: red;*/
+}
+.haiding>h4{
+	line-height: 23px;
+	color: #61656a;
+	padding-right: 10px;
+}
+.mui-ellipsis{
+	margin-top: 10px;
+}
+.icon-anjuke{
+	color: #2AC845;
+}
+.img{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.mui-table-view{
+	margin-top: 20px;
+}
+/*视频播放*/
+.video{
+	width: 100%;
+	height: 183px;
+	/*background: red;*/
+	
+}
+#video{
+	width: 100%;
+	margin: 0 auto;
+}
+.video_h4{
+	margin-top: 20px;
+	color:#61656a ;
 }
