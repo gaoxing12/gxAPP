@@ -13,13 +13,10 @@
 .myHeader{
 	box-shadow: none;
 }
-.mui-title{
-	/*background: yellow;
-	display: none;*/
-}
+
 /*绿色的背景图*/
 .myContent{
-	height: 1000px;
+	/*height: 1000px;*/
 	padding-top: 0;
 	background: #fff;
 	position: relative;
@@ -132,5 +129,120 @@
 }
 /*我的服务*/
 .mySeaver{
-	margin-top: 20px;
+	margin-top: 40px;
+}
+.mySeaver>.house{
+	width: 83%;
+	margin: 0 auto;
+	margin-top: 10px;
+	/*background: yellow;*/
+}
+.mySeaver>.house>a{
+	display: block;
+	width: 25%;
+}
+.mySeaver>.house>a:nth-child(1){
+	border-right: 1px solid #e6e6e6;
+}
+.mySeaver>.house>a:nth-child(1)>span{
+	text-align: left;
+	color: #686d74;
+	font-size: 14px;
+}
+/*看房管理*/
+.mySeaver>.house>a:nth-child(2)>span:nth-child(1){
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 3px;
+	background: #ffb21b;
+	font-size: 15px;
+	margin-bottom: 6px;
+}
+.mySeaver>.house>a>span:nth-child(2){
+	color: #4a4d53;
+}
+.mySeaver>.house>a:nth-child(3)>span:nth-child(1){
+	/*width: 30%;*/
+	margin: 0 auto;
+	padding-top: 3px;
+	color:#ffb21b; ;
+	/*background: #ffb21b;*/
+	font-size: 40px;
+}
+.mySeaver>.house>a:nth-child(4)>span:nth-child(1){
+	/*width: 30%;*/
+	margin: 0 auto;
+	padding-top: 3px;
+	color:#ffb21b; ;
+	/*background: #ffb21b;*/
+	font-size: 30px;
+}
+/*互动服务*/
+.hudong{
+	width: 83%;
+	margin: 0 auto;
+	padding-top: 15px;
+	/*background: pink;*/
+}
+.mySeaver>.hudong>a>span:nth-child(1){
+	color: #62beff;
+}
+.mySeaver>.hudong>a:nth-child(4)>span:nth-child(1){
+	color:#62beff; ;
+	font-size: 20px;
+}
+.mySeaver>.hudong>a:nth-child(3)>span:nth-child(1){
+	color:#62beff; ;
+	font-size: 24px;
+}
+.mySeaver>.hudong>a:nth-child(2)>span:nth-child(1){
+	color:#62beff; 
+	font-size: 24px;
+	margin-bottom: 0px;
+	background-color: transparent;
+}
+.mySeaver>.hudong>a:nth-child(1)>span{
+	color:#686D74; 	
+}
+h4{
+	padding-left: 15px;
+}
+/*房产工具*/
+.housing_tool{
+	/*background: yellow;*/
+	margin-top: 60px;
+	height: 200px;
+}
+/*.housing_tool>.housing_tool_list>a{
+	background: pink;
+}*/
+.housing_tool_list>a{
+	width: 25%;
+	display: block;
+	/*background: darkred;*/
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+.housing_tool_list>a>span{
+	display: block;
+}
+.housing_tool_list>a>span:nth-child(2){
+	color: #555555;
+	font-size: 14px;
+}
+/*其他服务*/
+.other img{
+	width: 40%;
+}
+.otherh4{
+	margin-top: 0;
+	height: 120px;
+}
+/*轮播图*/
+.mui-slider{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 40px;
 }

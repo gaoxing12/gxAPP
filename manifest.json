@@ -184,6 +184,32 @@
 				],
 				"refer": [],
 				"priority": 0
+			},
+			"html/my.html": {
+				"resources": [
+					"imgs/my/58同城.png"
+				],
+				"refer": [
+					"html/my_son/chart.html",
+					"html/my_son/setting.html",
+					"html/my_son/login.html"
+				],
+				"priority": 0
+			},
+			"html/my_son/login.html": {
+				"resources": [],
+				"refer": [
+					"html/my_son/forget.html",
+					"html/my_son/main1.html"
+				],
+				"priority": 0
+			},
+			"html/my_son/main1.html": {
+				"resources": [],
+				"refer": [
+					"html/my_son/setting.html"
+				],
+				"priority": 0
 			}
 		},
 		"idle": {

@@ -190,3 +190,20 @@ li{
     -webkit-box-shadow: none;
             box-shadow: none;
 }
+
+
+/*轮播图的调试*/
+#fangLi>.swiper-slide .li>span{
+	color: #fff; 
+	background-color: #FF684B;
+	width: 50px;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+#fangLi>.swiper-slide .tieleLi>span{
+font-size: 15px;
+}
