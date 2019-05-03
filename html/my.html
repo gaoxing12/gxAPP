@@ -6,6 +6,8 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/my.css"/>
+		<link rel="stylesheet" type="text/css" href="../fonts/icon/iconfont.css"/>
 	</head>
 
 	<body>
@@ -13,9 +15,94 @@
 		<script type="text/javascript">
 			mui.init()
 		</script>
-		<div class="mui-content">
-			我的页面
+		<header class="mui-bar mui-bar-nav mui-bar-transparent myHeader">
+		    <h1 class="mui-title"></h1>
+		    <p class="myHeaderIcon">
+		    	<span class="mui-icon mui-icon-gear"></span>
+		    	&nbsp;&nbsp;&nbsp;
+		    	<span class="iconfont icon-erji"></span>
+		    </p>
+		</header>
+		<div class="mui-content myBody">
+		    <!--绿色的背景-->
+		    <a class="login">
+		    	<span class="iconfont icon-ren"></span>
+		    	<div class="zc_login">
+		    		<p>注册/登录</p>
+		    		<small>登录后即可体验更多服务</small>
+		    	</div>
+		    	<!--签到有礼-->
+		    	<div class="sign_in">
+		    		<span class="iconfont icon-liwuhe"></span>&nbsp;<span>签到有礼</span>
+		    	</div>
+		    </a>
+		    <!--浏览，关注……-->
+		    <div class="about">
+		    	<a href="#" class="abousList">
+		    		<span>1</span>
+		    		<span>浏览</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span>0</span>
+		    		<span>收藏</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span>0</span>
+		    		<span>关注</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span>0</span>
+		    		<span>联系</span>
+		    	</a>
+		    </div>
+		</div>
+		<!--绿色背景下面的内容-->
+		<div class="mui-content myContent">
+		    <!--钱包栏菜单-->
+		    <div class="moneyList about">
+		    	<a href="#" class="abousList">
+		    		<span class="iconfont icon-qianbao"></span>
+		    		<span>钱包</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span class="iconfont icon-youhuizhekoufuliquanqianhongbaorenminbi"></span>
+		    		<span>优惠</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span class="iconfont icon-baoxian"></span>
+		    		<span>保险</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span class="iconfont icon-quanyiguanli"></span>
+		    		<span>权益</span>
+		    	</a>
+		    </div>
+		    <!--内容全部都要写在这里面-->
+		    <!--我的服务-->
+		    <div class="mySeaver">
+		    	<h4>我的服务</h4>
+		    	<!--房产服务-->
+		    	<div class="house">
+		    		<a href="#" class="abousList">
+		    		<span class="iconfont icon-qianbao"></span>
+		    		<span>钱包</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span class="iconfont icon-youhuizhekoufuliquanqianhongbaorenminbi"></span>
+		    		<span>优惠</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span class="iconfont icon-baoxian"></span>
+		    		<span>保险</span>
+		    	</a>
+		    	<a href="#" class="abousList">
+		    		<span class="iconfont icon-quanyiguanli"></span>
+		    		<span>权益</span>
+		    	</a>
+		    	</div>
+		    </div>
 		</div>
 	</body>
-
+	<script src="../js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/my.js" type="text/javascript" charset="utf-8"></script>
 </html>

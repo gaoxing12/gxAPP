@@ -1,0 +1,136 @@
+/*头部上的两个图标*/
+.myHeaderIcon{
+	text-align: right;
+	/*background-color: yellow;*/
+}
+.myHeaderIcon>span{
+	color: #fff;
+}
+.myBody{
+	height: 220px;
+	 background: linear-gradient(to right, #01d057 , #1aad00);
+}
+.myHeader{
+	box-shadow: none;
+}
+.mui-title{
+	/*background: yellow;
+	display: none;*/
+}
+/*绿色的背景图*/
+.myContent{
+	height: 1000px;
+	padding-top: 0;
+	background: #fff;
+	position: relative;
+}
+/*登录注册*/
+.login{
+	display: block;
+	/*background: darkgoldenrod;*/
+	position: relative;
+}
+.login>span{
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	line-height: 64px;
+	float: left;
+	font-size: 60px;
+	background: #F2F2F2;
+	color: #d5d9df;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.zc_login{
+	/*background: yellow;*/
+	display: inline-block;
+}
+.zc_login>p{
+	font-size: 21px;
+	color: #fff;
+	padding-top: 10px;
+}
+.zc_login>small{
+	color: #fff;
+}
+/*签到有礼*/
+.sign_in{
+	position: absolute;
+	width: 26%;
+	padding: 5px 5px;
+	text-align: center;
+	background-color:rgba(0,0,0,0.4);
+	right: 0;
+	top: 30px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.sign_in>span{
+	color: #fff;
+	font-size: 14px;
+}
+/*浏览，关注……*/
+.about{
+	margin-top: 25px;
+	height: 50px;
+	/*background: yellow;*/
+}
+.about>a{
+	display: block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.about>a>span{
+	display: block;
+	color: #fff;
+}
+.about>a>span:nth-child(2){
+	padding-top: 5px;
+	font-size: 14px;
+}
+/*钱包栏菜单*/
+.moneyList{
+	width: 90%;
+	height: 98px;
+	background: #fff;
+	padding-top: 14px;
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	transform: translate(-50%);
+	box-shadow: 0px 1px 6px #ccc;
+}
+.moneyList>a>span:nth-child(2){
+	color: #464a50;
+}
+.moneyList>a>span:nth-child(1){
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	margin: 0 auto;
+	font-size: 33px;
+}
+.moneyList>a:nth-child(1)>span:nth-child(1){
+	color: #fdb000;	
+	background-color: #feeed4;
+}
+.moneyList>a:nth-child(2)>span:nth-child(1){
+	color: #ff684b;	
+	background-color: #ffeae6;
+}
+.moneyList>a:nth-child(3)>span:nth-child(1){
+	color: #57c869;	
+	background-color: #d9f9de;
+}
+.moneyList>a:nth-child(4)>span:nth-child(1){
+	color: #4db5ff;	
+	background-color: #e8f2ff;
+}
+/*我的服务*/
+.mySeaver{
+	margin-top: 20px;
+}
